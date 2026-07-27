@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data | SmartCane</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">🌱 SmartCane</div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="advisory.html">AI Advisory</a>
+        <a href="sensors.html">Sensor Data</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="page-header">
+    <p class="tag">FIELD MONITORING</p>
+    <h1>Sensor Dashboard</h1>
+    <p>Monitor important environmental conditions affecting the crop.</p>
+</section>
+
+<section class="section">
+
+    <div class="sensor-grid">
+
+        <div class="sensor-card">
+            <div class="sensor-icon">💧</div>
+            <p>SOIL MOISTURE</p>
+            <h2>42%</h2>
+
+            <div class="progress">
+                <div class="progress-bar moisture"></div>
+            </div>
+
+            <span>Moderate moisture level</span>
+        </div>
+
+        <div class="sensor-card">
+            <div class="sensor-icon">🌡️</div>
+            <p>TEMPERATURE</p>
+            <h2>29°C</h2>
+
+            <div class="progress">
+                <div class="progress-bar temperature"></div>
+            </div>
+
+            <span>Normal field temperature</span>
+        </div>
+
+        <div class="sensor-card">
+            <div class="sensor-icon">💨</div>
+            <p>HUMIDITY</p>
+            <h2>68%</h2>
+
+            <div class="progress">
+                <div class="progress-bar humidity"></div>
+            </div>
+
+            <span>Suitable humidity level</span>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="data-section">
+
+    <div class="table-container">
+
+        <div class="table-heading">
+            <div>
+                <p class="section-label">RECENT DATA</p>
+                <h2>Sensor Readings</h2>
+            </div>
+
+            <span class="live">● LIVE</span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Soil Moisture</th>
+                <th>Temperature</th>
+                <th>Humidity</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>08:00 AM</td>
+                <td>51%</td>
+                <td>25°C</td>
+                <td>74%</td>
+                <td><span class="normal">Normal</span></td>
+            </tr>
+
+            <tr>
+                <td>10:00 AM</td>
+                <td>47%</td>
+                <td>27°C</td>
+                <td>71%</td>
+                <td><span class="normal">Normal</span></td>
+            </tr>
+
+            <tr>
+                <td>12:00 PM</td>
+                <td>44%</td>
+                <td>28°C</td>
+                <td>69%</td>
+                <td><span class="watch">Monitor</span></td>
+            </tr>
+
+            <tr>
+                <td>02:00 PM</td>
+                <td>42%</td>
+                <td>29°C</td>
+                <td>68%</td>
+                <td><span class="irrigate">Irrigate</span></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+
+<footer>
+    <div>
+        <h3>🌱 SmartCane</h3>
+        <p>AI & Sensor-Based Irrigation Advisory System</p>
+    </div>
+    <p>© 2026 SmartCane</p>
+</footer>
+
+</body>
+</html>
